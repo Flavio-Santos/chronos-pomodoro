@@ -1,0 +1,14 @@
+/* mais para variaveis */
+
+:root {
+  --color-background: blue;
+  --color-foreground: #657b83;
+  --color-primary: #268bd2;
+  --color-secondary: #2aa198;
+  --color-accent: #b58900;
+  --color-error: #dc322f;
+  --color-success: #859900;
+  --font-family: 'sans-serif', 'Arial';
+  --font-size-base: 16px;
+  --spacing-base: 8px;
+}
