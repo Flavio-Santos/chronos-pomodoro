@@ -7,7 +7,11 @@ function App() {
 
   return (
     <>
-      <Heading />
+      <Heading attr={123} attr2='asdasd'>
+        Ola mundo
+      </Heading>
+      <Heading>Ola mundo5555</Heading>
+      <Heading>Ola mundo6666</Heading>
       <h1>Opa</h1>
       <h1>Opa</h1>
       <h1>Opa</h1>
