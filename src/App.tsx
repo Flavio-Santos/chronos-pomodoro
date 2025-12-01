@@ -1,9 +1,9 @@
 import './styles/theme.css';
 import './styles/global.css';
 
-import { Heading } from './components/heading';
 import { Container } from './components/container';
 import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
 
 function App() {
   return (
@@ -12,10 +12,7 @@ function App() {
         <Logo />
       </Container>
       <Container>
-        <Heading>MENU</Heading>
-      </Container>
-      <Container>
-        <Heading>FORM</Heading>
+        <Menu />
       </Container>
     </>
   );
