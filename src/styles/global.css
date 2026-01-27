@@ -29,7 +29,15 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 24rem;
+  gap: 2.4rem;
   align-items: center;
   justify-content: center;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
 }
