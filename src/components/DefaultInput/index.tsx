@@ -1,3 +1,4 @@
+import styles from './style.module.css';
 import type React from 'react';
 
 type DefaultInputProps = {
@@ -16,7 +17,7 @@ export function DefaultInput({
       {labelText && <label htmlFor={id}>{labelText}</label>}
       {/* {labelText ? <label htmlFor={id}>{labelText}</label> : null} */}
       {/* <label htmlFor={id}>{labelText}</label> */}
-      <input type={type} id={id} {...props} />
+      <input type={type} id={id} {...props} className={styles.input} />
     </>
   );
 }
